@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-body {
+* {
     font-family: 'Poppins', sans-serif;
     background-color: #131316;
     color: aliceblue;
@@ -50,4 +50,18 @@ img {
 
 .logo:nth-child(4) {
   transition-delay: 600ms;
+}
+
+@media (max-width: 767px) {
+  /* styles for screens smaller than 768px wide */
+  body 
+
+  .logos {
+    flex-direction: column;
+  }
+
+  section {
+    font-size: 1em;
+
+  }
 }
