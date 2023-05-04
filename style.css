@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #131316;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    border: lawngreen 2px solid;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  align-content: center;
+  border: yellow 2px solid;
+  margin: 50px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-200px);
+  transition: all 1.2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0px);
+}
